@@ -7,13 +7,13 @@ This project is totoaly written in the Rust programming language.
 
 I have not finish this project yet. However, I have finished a part of this which is the case of Schwarschild Black Hole. According to spheric symmetry, we have only one free degree in this case. I put my code of this case in 'Schwarschild' branch.
 
-Some quote on my code:
-1. The file 'ode.rs' is an ODE solver using Runge Kutta method. We need an ODE solver here since the equation of light is an ODE;
-2. The file 'equation.rs' is the specific ODE corresponding to equation of null geodesics near a Schwarschild Black Hole.
-3. The file 'main.rs' transforms the original background to the result image, which represents what we see with the existence of a Schwarschild Black Hole.
+Some quote on my code:<br>
+1. The file 'ode.rs' is an ODE solver using Runge Kutta method. We need an ODE solver here since the equation of light is an ODE; <br>
+2. The file 'equation.rs' is the specific ODE corresponding to equation of null geodesics near a Schwarschild Black Hole; <br>
+3. The file 'main.rs' transforms the original background to the result image, which represents what we see with the existence of a Schwarschild Black Hole. <br>
 
-To build this code, just run
-$ cargo build
-To run the generated program, put an image in the current directory and run
-$ cargo run
+To build this code, just run <br>
+$ cargo build <br>
+To run the generated program, put an image in the current directory and run <br>
+$ cargo run <br>
 , you'll see the final image in the same directory.
