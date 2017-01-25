@@ -1,0 +1,13 @@
+[package]
+name = "black_hole"
+version = "0.1.0"
+authors = ["lihaoshu"]
+
+[dependencies]
+image = "*"
+nalgebra = "*"
+
+[profile.dev]
+opt-level = 3
+
+
